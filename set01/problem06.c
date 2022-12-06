@@ -11,6 +11,7 @@ int main(){
   compare(a,b,c &largest);
   output(a,b,c,largest);
   }
+
   int input(){
   int comp;
   printf("Enter the number\n");
