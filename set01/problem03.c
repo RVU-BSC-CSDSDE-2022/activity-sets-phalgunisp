@@ -12,10 +12,10 @@ int main(void){
 }
 
 int input() {
-  int num;
+  int n;
   printf("Enter a number");
-  scanf("%d" , &num);
-  return num;
+  scanf("%d" , &n);
+  return n;
 }
 int add(int a, int b){
   int s;
@@ -24,7 +24,7 @@ int add(int a, int b){
 }
 
 void output(int a, int b, int sum){
-  printf("The sum of %d and %d is %d " , a,b,sum);
+  printf("The sum of %d and %d is %d " ,a,b,sum);
 }
 
 
