@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main(void) {
-  printf("phalguni s p \n");
+  printf("phalguni sp \n");
   return 0;
 }
