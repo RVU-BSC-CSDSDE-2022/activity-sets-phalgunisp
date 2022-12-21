@@ -14,15 +14,15 @@ int main(){
 }
 
 int input(){
-  int n;
+  int number;
   printf("Enter the number:");
-  scanf("%d", &n);
-  return n;
+  scanf("%d", &number);
+  return number;
 }
 
 int compare(int a, int b, int c){
     int largest;
-  if ((a>b)&&(a>c))
+  if ((a>=b)&&(a>=c))
     largest=a;
   if((b>=a && b>=c))
     largest=b;
@@ -32,6 +32,6 @@ int compare(int a, int b, int c){
 }
 
 void output(int a, int b, int c, int largest){
-  printf("The largest of %d,%d,%d is %d ",a,b,c,largest);
+  printf("the largest of %d %d %d is %d", a,b,c,largest);
   
 }
