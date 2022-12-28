@@ -1,4 +1,4 @@
-#include <stdio.h>
+,#include <stdio.h>
 
 int input_n();
 int sum_n_nos(int n);

@@ -13,7 +13,7 @@ int main(void){
 
 int input() {
   int n;
-  printf("Enter a number");
+  printf("Enter a number:\n");
   scanf("%d" , &n);
   return n;
 }
