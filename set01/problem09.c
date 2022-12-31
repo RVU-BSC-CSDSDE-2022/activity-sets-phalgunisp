@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 float input();
 float square_root(float n);
 void output(float n, float sqrroot);
@@ -20,14 +19,10 @@ float input(){
 }
 
 float square_root(float n){
- float x = n;
- float y = 1;
-       while (x > y) {
-              x = (x + y) / 2;
-              y = n / x;
-  }
-      return x;
-  }
+  
+}
+
+
 void output(float n, float sqrroot){
   printf("Square root of %f is  %f", n, sqrroot);
 }
