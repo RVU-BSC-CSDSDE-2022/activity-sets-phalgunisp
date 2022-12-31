@@ -13,7 +13,7 @@ int main(){
 
 int input_n(){
   int n;
-  printf("Enter a positive number:");
+  printf("Enter a positive number:\n");
   scanf("%d",&n);
   return n;
 }

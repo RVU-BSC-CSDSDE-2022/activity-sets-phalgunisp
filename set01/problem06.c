@@ -1,4 +1,4 @@
-`#include<stdio.h>
+#include<stdio.h>
 int input();
 void compare(int a, int b, int c, int *largest);
 void output(int a, int b, int c, int largest);
@@ -15,7 +15,7 @@ int main(){
 
   int input(){
   int comp;
-  printf("Enter the number\n");
+  printf("Enter the number:\n");
   scanf("%d", &comp);
   return comp;
   
