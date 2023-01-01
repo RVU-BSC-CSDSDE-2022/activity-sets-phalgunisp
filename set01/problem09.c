@@ -12,14 +12,27 @@ int main(){
 }
 
 float input(){
-  float n;
+  float number;
   printf("Enter a number: \n");
-  scanf("%f", &n);
-  return n;
+  scanf("%f", &number);
+  return number;
 }
 
 float square_root(float n){
-  
+  int i;
+  float sqrroot;
+  float x=2; //inital guess
+  for(i=0;i<n;i++){
+    sqrroot = (x+n/x)/2;
+    if(x==sqrroot){
+      return sqrroot;
+    }
+    
+    else{
+      x=sqrroot;
+    }
+      
+  }
 }
 
 
