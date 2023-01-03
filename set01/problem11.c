@@ -20,12 +20,12 @@ int main(){
 }
 
 Complex input_complex(){
-  Complex a;
+  Complex n;
   printf("enter the real part: \n");
-  scanf("%f", &a.real);
+  scanf("%f", &n.real);
   printf("enter the imaginary part:");
-  scanf("%f", &a.imaginary);
-  return a;
+  scanf("%f", &n.imaginary);
+  return n;
 }
 
 Complex add_complex(Complex a, Complex b){

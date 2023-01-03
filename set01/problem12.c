@@ -29,8 +29,8 @@ int get_n()
 {
    int n;
    printf("Enter the size of the array\n");
-  scanf("%d", &n);
-  return n;
+   scanf("%d", &n);
+   return n;
   }
   
 Complex input_complex()
@@ -53,10 +53,10 @@ void input_n_complex(int n , Complex c[n])
 
 Complex add(Complex a, Complex b)
 {
-
-  a.real=a.real+b.real;
-  a.imaginary=a.imaginary+b.imaginary;
-  return a;
+  Complex sum;
+  sum.real=a.real+b.real;
+  sum.imaginary=a.imaginary+b.imaginary;
+  return sum;
 }
 Complex add_n_complex(int n, Complex c[n])
 {
