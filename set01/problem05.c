@@ -29,14 +29,9 @@ int compare(int a, int b, int c){
   }
   else{
     return c;
-  }
-    
-  
-  
-    
+  }   
 }
 
 void output(int a, int b, int c, int largest){
   printf("the largest of %d %d %d is %d", a,b,c,largest);
-  
 }

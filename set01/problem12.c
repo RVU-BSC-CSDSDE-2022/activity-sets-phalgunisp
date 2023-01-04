@@ -23,6 +23,7 @@ int main()
    Complex c[n];
    input_n_complex(n,c);
    result=add_n_complex(n,c);
+   output(n,c,result);
    return 0;
 }
 int get_n()
@@ -68,6 +69,12 @@ Complex add_n_complex(int n, Complex c[n])
 }
 
 void output(int n, Complex c[n], Complex result){
-  printf("%f")
+  printf("The sum of \n");
+  for(int i=0;i<n;i++){
+    //printf("%f and %f\n",c[i].real,c[i].imaginary);
+    printf("%f+i%f",c[i].real,c[i].imaginary);
+ }
+  printf("is %f+i%f",result.real,result.imaginary);
+ 
 }
 

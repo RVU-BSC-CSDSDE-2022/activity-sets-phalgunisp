@@ -23,7 +23,7 @@ Complex input_complex(){
   Complex n;
   printf("enter the real part: \n");
   scanf("%f", &n.real);
-  printf("enter the imaginary part:");
+  printf("enter the imaginary part: \n");
   scanf("%f", &n.imaginary);
   return n;
 }
