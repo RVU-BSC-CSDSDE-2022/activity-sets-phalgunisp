@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 float input();
 float square_root(float n);
@@ -22,9 +23,9 @@ float square_root(float n){
   int i;
   float sqrroot;
   float x=2; //inital guess
-  for(i=0;i<n;i++){
+  for(i=0;x!=sqrroot;i++){
     sqrroot = (x+n/x)/2;
-    if(x==sqrroot){
+    if(fabs(x-sqrroot)<0.00000001){
       return sqrroot;
     }
     
