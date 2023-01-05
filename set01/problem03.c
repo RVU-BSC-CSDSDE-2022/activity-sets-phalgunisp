@@ -18,9 +18,9 @@ int input() {
   return number;
 }
 int add(int a, int b){
-  int s;
-  s = a+b;
-  return s;
+  int sum;
+  sum = a+b;
+  return sum;
 }
 
 void output(int a, int b, int sum){
