@@ -30,15 +30,22 @@ void input_array(int n, int a[n]){
 }
 
 int sum_composite_numbers(int n, int a[n]){
-int i,result;
-  for(i=1;i<=n;i++){
-    if(n%i==0){
+int i,j,result=0,count;
+  for(i=0;i<n;i++){
+    count=0;
+    for(j=1;j<=a[i];j++){
+    if(a[i]%j==0){
+      count=count+1;
+    }
+    } 
+    if(count>2){
       result=result+a[i];
     }
-   
-    }
+  }
   return result;
 }
+ 
+
 
 void output(int sum){
   printf("%d", sum);
