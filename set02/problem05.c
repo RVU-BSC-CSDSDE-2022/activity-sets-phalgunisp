@@ -35,3 +35,4 @@ int find_gcd(int a, int b){
 void output(int a, int b, int gcd){
   printf("%d",gcd);
 }
+//Euclid's Algorithm see if you can figure it out

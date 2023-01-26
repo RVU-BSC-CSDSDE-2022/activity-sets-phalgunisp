@@ -165,7 +165,7 @@ The distance between the points (1.000000,1.000000) and (2.000000,2.000000) is 1
 
 ---
 
-8. Write a program to find the permeter of a polygon
+8. Write a program to find the perimeter of a polygon
 
 ***Function Declarations***
 ```c
